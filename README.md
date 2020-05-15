@@ -1102,3 +1102,145 @@ In this experiment, the _output_ conditioning location failed to train, so resul
 ## Download 
 
 A zip file containing all listening examples in original quality can be downloaded [here](https://drive.google.com/file/d/14vBHA76X1uFXSIzDmwlTCtAnaIVmmgoR/view?usp=sharing) (382 MB). -->
+
+## Evaluation on real choir recording
+
+The following table shows the results of models from several experiments, evaluated on the song 'El Rossinyol' from [Choral Singing Dataset](https://zenodo.org/record/1286570), described in the following paper:
+> Cuesta, H., Gómez, E., Martorell, A., Loáiciga, F. (2018). Analysis of Intonation in Unison Choir Singing. In Proceedings of the 15th International Conference on Music Perception and Cognition.
+
+Note that all models were trained only on synthethized examples without any lyrics.
+
+<table>
+    <tr>
+        <th>
+            <div class="button" data-target="audio/rossinyol/reference/mix.wav.m4a">
+                {% octicon play %}
+            </div>
+            mix
+        </th>
+        <th>soprano</th>
+        <th>alto</th>
+        <th>tenor</th>
+        <th>bass</th>
+    </tr>
+    <tr>
+        <td>reference</td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/reference/soprano.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/reference/alto.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/reference/tenor.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/reference/bass.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>SI-NMF</td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex1/soprano.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex1/alto.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex1/tenor.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex1/bass.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Ex. 3</td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex3/soprano.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex3/alto.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex3/tenor.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex3/bass.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Ex. 5</td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex5/pitch and amplitude/in/soprano.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex5/pitch and amplitude/in/alto.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex5/pitch and amplitude/in/tenor.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex5/pitch and amplitude/in/bass.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Ex. 6</td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex6/pitch and amplitude/in/soprano.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex6/pitch and amplitude/in/alto.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex6/pitch and amplitude/in/tenor.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+        <td>
+            <div class="button" data-target="audio/rossinyol/ex6/pitch and amplitude/in/bass.wav.m4a">
+                {% octicon play %}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+        <audio controls preload="auto"></audio>
+        </td>
+    </tr>
+</table>
