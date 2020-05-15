@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+show_downloads: false
+github:
+  is_project_page: false
+title: Source Separation of Choral Music
+description: Supplemental material for ISMIR 2020 paper submission
+gems:
+  - jekyll-octicons

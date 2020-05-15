@@ -1,0 +1,28 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.octicon-play:hover {
+    fill: royalblue;
+}
+
+.active .octicon-play {
+    fill: orchid;
+}
+
+.button {
+    display: inline;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+td {
+    text-align: center;
+}
+
+.main-content table td, .main-content table th {
+    padding: 0.3rem 0.5rem;
+}
