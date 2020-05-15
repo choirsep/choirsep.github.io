@@ -1,7 +1,7 @@
 We tested several source separation methods on a dataset of synthesized Bach chorales and on choral recordings from [Choral Singing Dataset](https://zenodo.org/record/1286570). Below are listening examples for each of the methods we tested. The code used to create the chorales dataset is available in the ANONYMIZED repository.
 
 
-The following listening examples are from chorale BWV 360 (chorale number 350 in the Riemenschneider edition). The chorale's original score is available [here](http://www.bach-chorales.com/BWV0360.htm). After running our data augmentation procedure, the chorale was modified with simulated breaths and randomly omitted notes. The modified score is available here (TODO).
+The following listening examples are from chorale BWV 359 (chorale number 365 in the Riemenschneider edition). The chorale's original score is available [here](http://www.bach-chorales.com/BWV0359.htm). After running our data augmentation procedure, the chorale was modified with simulated breaths and randomly omitted notes. The modified score is available [here](assets/chorale_bwv_359_modified.pdf).
 
 ## Baseline: Score-informed NMF
 
